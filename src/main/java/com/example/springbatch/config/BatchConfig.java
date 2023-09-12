@@ -48,7 +48,7 @@ public class BatchConfig {
                 .build();
 
     }
-//    Index,User Id,First Name,Last Name,Sex,Email,Phone,Date of birth,Job Title
+
     @Bean
     @StepScope
     public FlatFileItemReader<User>reader(){
